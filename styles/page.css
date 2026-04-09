@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+    background-color: #c3c3c3;
+  color: rgb(255, 255, 255);
+  /* TODO Add dark mode styles here. */
+}
+
+.light-mode {
+      background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* TODO Add light mode styles here. */
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted rgb(255, 255, 255);
+  /* TODO Add margins to center. */
+}
+.poem {
+  text-align: center;
+}
+
+footer {
+    background-color: #ffd2f7;
+  padding: 10px;
+  text-align: center;
+}
+
+.light-mode footer {
+  /* TODO Add footer light mode styles here. */
+}
