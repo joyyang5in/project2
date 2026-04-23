@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head> 
+
+<head>
     <title>Project 2: A Clean Slate </title>
-      <link rel="stylesheet" href="styles/page.css">
-  </head> 
- 
-<body>
-<header>
-    <div>
-        <img src = "images/avatar.png">
-         <b>Joy</b>
-          </div>  
-    <div>
-<menu>
-    <a href="https://joyyang.5in.github.io/week1/">week1 </a>
-        <button id="color-mode-button">light mode</button>
-</menu>
-    </div>
+    <link rel="stylesheet" href="styles/page.css">
+</head>
+
+<body class="dark-mode">
     <header>
+        <div>
+            <img src="images/avatar.png">
+            <b>Joy</b>
+        </div>
+        <div>
+            <menu>
+                <a href="https://joyyang.5in.github.io/week1/">week1 </a>
+                <button id="color-mode-button">light mode</button>
+            </menu>
+        </div>
+    </header>
+    <main class="center">
         <h1>Project 2: A Clean Slate</h1>
 
         <p>
-  How do we center the content in our browser window? How wide should our
-  content be? How wide should our content be if we look at our webpage on
-  a phone’s browser?
-</p>
+            How do we center the content in our browser window? How wide should our
+            content be? How wide should our content be if we look at our webpage on
+            a phone’s browser?
+        </p>
 
-<h2><i>A poem</i></h2>
-<p class="poem">
-  A website is a work of art<br />
-  A poem for the digital age<br />
-  Built with skill and heart<br />
-  To inspire while filling the page
-</p>
-
-</main>
-    <h1>
-
-    </h1>
-</main>
-<footer>
-    <div>
-        <p>4/9/2026</p>
+        <h2><i>A poem</i></h2>
+        <p class="poem">
+            A website is a work of art<br />
+            A poem for the digital age<br />
+            Built with skill and heart<br />
+            To inspire while filling the page
+        </p>
         </div>
-    </footer>
-      <script>
-        
-      </script>
-    </div>
-</header>
-  </body>  
+        <h2>Counter</h2>
+        <p id="counter">0</p>
+        <button id="plusone-button">+1</button>
+        <button id="minusone-button">-1</button>
+        <button id="clear-button">C</button>
 
-  </html>
-      
-        
-       
-    
+        <button id="zero-button">0</button>
+        <button id="one-button">1</button>
+        <button id="two-button">2</button>
+        <button id="three-button">3</button>
+        <button id="four-button">4</button>
+        <button id="five-button">5</button>
+        <button id="six-button">6</button>
+        <button id="seven-button">7</button>
+        <button id="eight-button">8</button>
+        <button id="nine-button">9</button>
+        <button id="ten-button">10</button>
+
+    </main>
+
+    <footer>
+        <div class="center">
+            <p>4/9/2026</p>
+        </div>
+
+        <div id = "caculator">
+            counter things
+            <div id = "caculator-buttons">
+                button things
+            </div>
+        </div>
+
+    </footer>
+    <script src="./scripts/color-mode.js"></script>
+    <script src="./scripts/counter.js"></script>
+
+</body>
+
+</html>
