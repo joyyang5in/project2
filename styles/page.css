@@ -9,15 +9,20 @@ body {
 }
 
 .light-mode {
-      background-color: rgb(183, 227, 228);
-  color: rgb(131, 131, 131);
+      background-color: rgb(255, 255, 183);
+  color: rgb(255, 135, 209);
   /* TODO Add light mode styles here. */
+}
+
+footer {
+    background-color:#ffc6ea;
+  text-align: center;
 }
 
 .center {
   width: 940px;
   padding: 20px;
-  border: 1px dotted rgb(60, 60, 60);
+  border: 1px dotted rgb(255, 78, 217);
   margin-left: auto;
   margin-right: auto;
   /* TODO Add margins to center. */
@@ -26,18 +31,15 @@ body {
   text-align: center;
 }
 
+.dark-mode{
 footer {
-    background-color: #6a6a6a;
-  padding: 10px;
+    background-color:#ffb5e6;
+background: radial-gradient(circle, rgba(255, 181, 230, 1) 31%, rgba(148, 255, 234, 1) 69%);
   text-align: center;
 }
-footer {
-    background-color: #ffcaf2;
-  padding: 10px;
-  text-align: center;
 }
 .expample{
-    border: 15px solid grey;
+    border: 15px solid rgb(255, 255, 255);
     padding: 20px;
     width: 200px;
 }
