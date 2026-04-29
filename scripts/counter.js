@@ -33,52 +33,52 @@ function addOne(){
    } 
 
    function one(){
-    number = 1;
+    number = number*10 + 1;
     counter.textContent =number;
    } 
 
    function two(){
-    number = 2;
+    number = number*10 + 2;
     counter.textContent =number;
    } 
 
    function three(){
-    number = 3;
+    number = number*10 + 3;
     counter.textContent =number;
    } 
 
     function four(){
-    number = 4;
+    number = number*10 + 4;
     counter.textContent =number;
    } 
 
     function five(){
-    number = 5;
+    number = number*10 + 5;
     counter.textContent =number;
    } 
 
     function six(){
-    number = 6;
+    number = number*10 + 6;
     counter.textContent =number;
    } 
 
     function seven(){
-    number = 7;
+    number = number*10 + 7;
     counter.textContent =number;
    } 
 
     function eight(){
-    number = 8;
+    number = number*10 + 8;
     counter.textContent =number;
    } 
 
     function nine(){
-    number = 9;
+    number = number*10 + 9;
     counter.textContent =number;
    } 
 
     function zero(){
-    number = 0;
+    number = number*10 + 0;
     counter.textContent =number;
    } 
 //Event Listeners
@@ -95,6 +95,8 @@ sevenButton.addEventListener("click", seven);
 eightButton.addEventListener("click", eight);
 nineButton.addEventListener("click", nine);
 zeroButton.addEventListener("click", zero);
+
+
 
 
 
