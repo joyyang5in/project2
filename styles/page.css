@@ -55,12 +55,14 @@ max-width: 90;
 }
 
 #caculator{
+  background-color: rgb(199, 199, 199);
   border-color:rgb(255, 181, 245);
   border-width: 5px;
   border-style: solid;
   max-width: 110px;
 }
 #caculator-buttons{
+  background-color: rgb(189, 189, 189);
   border-color: rgb(255, 181, 245);
   border-width: 2px;
   border-style: solid;

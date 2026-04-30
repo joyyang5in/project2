@@ -15,6 +15,11 @@ let sixButton= document.getElementById("six-button");
 let sevenButton= document.getElementById("seven-button");
 let eightButton= document.getElementById("eight-button");
 let nineButton= document.getElementById("nine-button");
+let plusButton= document.getElementById("plus-button");
+let equalButton= document.getElementById("equal-button");
+
+let memory= 0;
+let answer= 0;
 
 //Functions
 function addOne(){
@@ -31,7 +36,7 @@ function addOne(){
     number = 0;
     counter.textContent =number;
    } 
-
+   
    function one(){
     number = number*10 + 1;
     counter.textContent =number;
@@ -81,6 +86,17 @@ function addOne(){
     number = number*10 + 0;
     counter.textContent =number;
    } 
+
+   function plus(event){
+    memory = number;
+    number = 0;
+    counter.textContent =memory;
+   }
+
+   function equal(event){
+    answer = memory + number;
+    counter.textContent =answer;
+   }
 //Event Listeners
 plusoneButton.addEventListener("click", addOne);
 minusoneButton.addEventListener("click", minusOne);
@@ -99,8 +115,8 @@ zeroButton.addEventListener("click", zero);
 
 
 
-
-
+plusButton.addEventListener("click", plus);
+equalButton.addEventListener("click", equal);
 
 
 
