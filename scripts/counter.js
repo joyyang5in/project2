@@ -17,6 +17,7 @@ let eightButton= document.getElementById("eight-button");
 let nineButton= document.getElementById("nine-button");
 let plusButton= document.getElementById("plus-button");
 let equalButton= document.getElementById("equal-button");
+let minusButton= document.getElementById("minus-button");
 
 let memory= 0;
 let answer= 0;
@@ -97,6 +98,11 @@ function addOne(){
     answer = memory + number;
     counter.textContent =answer;
    }
+
+   function minus(event){
+    
+   }
+
 //Event Listeners
 plusoneButton.addEventListener("click", addOne);
 minusoneButton.addEventListener("click", minusOne);

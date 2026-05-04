@@ -3,7 +3,7 @@
 }
 body {
   padding: 20px;
-    background-color: #383838;
+    background-color: #252525;
   color: rgb(255, 255, 255);
   /* TODO Add dark mode styles here. */
 }
@@ -43,6 +43,7 @@ background: radial-gradient(circle, rgba(255, 173, 221, 1) 10%, rgba(148, 242, 2
     width: 200px;
 }
 
+
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
 }
@@ -55,14 +56,14 @@ max-width: 90;
 }
 
 #caculator{
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(101, 101, 101);
   border-color:rgb(255, 181, 245);
   border-width: 5px;
   border-style: solid;
   max-width: 110px;
 }
 #caculator-buttons{
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(101, 101, 101);
   border-color: rgb(255, 181, 245);
   border-width: 2px;
   border-style: solid;
@@ -70,3 +71,5 @@ max-width: 90;
   text-align: center;
 
 }
+
+
